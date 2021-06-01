@@ -1,11 +1,11 @@
-function calcularValores() {
+function calculate() {
   var a = document.getElementById("a").value;
   var b = document.getElementById("b").value;
   var c = document.getElementById("c").value;
 
   var delta = b ** 2 - 4 * a * c;
   if (delta < 0) {
-    alert("Erro: Não existem raízes para esses valores");
+    alert("Error: There are no real values ​​for this sentence");
     return false;
   } else {
     var posDelta = Math.sqrt(b ** 2 - 4 * a * c);
@@ -16,6 +16,6 @@ function calcularValores() {
   document.getElementById("raiz1").innerText = d.toFixed(4);
   document.getElementById("raiz2").innerText = e.toFixed(4);
 }
-function mostrar() {
+function show() {
   document.getElementById("raizes").style.display = "block";
 }
