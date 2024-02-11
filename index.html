@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonte.css" />
+    <script type="text/javascript" src="JavaSc.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="SigmarOneRegular.ttf" />
+    <title>Bhaskara</title>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <h1>Bhaskara Calculator</h1>
+      <div id="formula"><h2>ax² + bx + c = 0</h2></div>
+      <div>
+        <label class="letra">a:</label>
+        <input id="a" type="number" class="result" />
+      </div>
+      <div>
+        <label class="letra">b:</label>
+        <input id="b" type="number" class="result" />
+      </div>
+      <div>
+        <label class="letra">c:</label>
+        <input id="c" type="number" class="result" />
+      </div>
+    </div>
+    <div id="botao">
+      <button id="calcular" onclick="calculate();show()">
+        Result
+      </button>
+    </div>
+    <div id="raizes">
+      <div>
+        <label class="letra">x'</label>
+        <span id="raiz1" class="result"></span>
+      </div>
+      <div>
+        <label class="letra">x"</label>
+        <span id="raiz2" class="result"></span>
+      </div>
+    </div>
+  </body>
+</html>
