@@ -13,8 +13,8 @@ function calculate() {
   var d = ((-b + posDelta) / 2) * a;
   var e = ((-b - posDelta) / 2) * a;
 
-  document.getElementById("raiz1").innerText = d.toFixed(4);
-  document.getElementById("raiz2").innerText = e.toFixed(4);
+  document.getElementById("raiz1").innerText = d.toFixed(0);
+  document.getElementById("raiz2").innerText = e.toFixed(0);
 }
 function show() {
   document.getElementById("raizes").style.display = "block";
